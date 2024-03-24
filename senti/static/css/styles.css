@@ -1,0 +1,93 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+nav#navbar {
+    background: #007bff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.description {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #007bff;
+}
+
+.userinput h2, .analysis-results h2 {
+    color: #007bff;
+}
+
+.url-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.analysis-results {
+    margin-top: 20px;
+}
+
+.analysis-chart {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.results-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.results-list li {
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+}
